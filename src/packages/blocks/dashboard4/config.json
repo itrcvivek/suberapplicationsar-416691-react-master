@@ -1,0 +1,69 @@
+{
+  "id": "dashboard4",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/dashboard4",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Dashboard4"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Dashboard4": {
+        "file": "Dashboard4.tsx",
+        "extends": "Dashboard4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Dashboard4Controller",
+            "path": "./Dashboard4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Dashboard4Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Dashboard4"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Dashboard4": {
+        "file": "Dashboard4.web.tsx",
+        "extends": "Dashboard4Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Dashboard4Controller",
+            "path": "./Dashboard4Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Dashboard4Controller"
+          }
+        ]
+      }
+    }
+  }
+}

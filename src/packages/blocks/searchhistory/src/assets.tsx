@@ -1,0 +1,1 @@
+export const search = require("../assets/ic_search.png");

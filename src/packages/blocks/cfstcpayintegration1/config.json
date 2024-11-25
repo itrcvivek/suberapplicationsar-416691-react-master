@@ -1,0 +1,69 @@
+{
+  "id": "cfstcpayintegration1",
+  "version": "1.1.0",
+  "status": "preAlpha",
+  "path": "./packages/blocks/cfstcpayintegration1",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfstcpayintegration1"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfstcpayintegration1": {
+        "file": "Cfstcpayintegration1.tsx",
+        "extends": "Cfstcpayintegration1Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Cfstcpayintegration1Controller",
+            "path": "./Cfstcpayintegration1Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Cfstcpayintegration1Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfstcpayintegration1"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfstcpayintegration1": {
+        "file": "Cfstcpayintegration1.web.tsx",
+        "extends": "Cfstcpayintegration1Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Cfstcpayintegration1Controller",
+            "path": "./Cfstcpayintegration1Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Cfstcpayintegration1Controller"
+          }
+        ]
+      }
+    }
+  }
+}

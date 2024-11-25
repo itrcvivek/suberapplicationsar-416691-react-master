@@ -1,0 +1,69 @@
+{
+  "id": "cfsuggestavailabletripstothetraveller",
+  "version": "1.1.0",
+  "status": "preAlpha",
+  "path": "./packages/blocks/cfsuggestavailabletripstothetraveller",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfsuggestavailabletripstothetraveller"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfsuggestavailabletripstothetraveller": {
+        "file": "Cfsuggestavailabletripstothetraveller.tsx",
+        "extends": "CfsuggestavailabletripstothetravellerController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfsuggestavailabletripstothetravellerController",
+            "path": "./CfsuggestavailabletripstothetravellerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfsuggestavailabletripstothetravellerController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfsuggestavailabletripstothetraveller"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfsuggestavailabletripstothetraveller": {
+        "file": "Cfsuggestavailabletripstothetraveller.web.tsx",
+        "extends": "CfsuggestavailabletripstothetravellerController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfsuggestavailabletripstothetravellerController",
+            "path": "./CfsuggestavailabletripstothetravellerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfsuggestavailabletripstothetravellerController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "promocodes",
+  "id": "promocodes",
+  "platform": [
+    "desktop",
+    "mobile"
+  ],
+  "author": "CMT",
+  "summary": null,
+  "license": "BSD",
+  "version": "1.0.0",
+  "pages": [
+    {
+      "Promocodes": {
+        "hotspots": []
+      },
+      "PromocodeDetails": {
+        "hotspots": []
+      }
+    }
+  ],
+  "mobile": [
+    {
+      "Promocodes": {
+        "label": "Promocodes"
+      }
+    },
+    {
+      "PromocodeDetails": {
+        "label": "PromocodeDetails"
+      }
+    }
+  ]
+}

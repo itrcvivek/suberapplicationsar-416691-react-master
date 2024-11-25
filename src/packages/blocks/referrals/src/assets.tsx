@@ -1,0 +1,7 @@
+export const imgPasswordVisible = require("../assets/ic_password_visible.png")
+export const imgPasswordInVisible = require("../assets/ic_password_invisible.png")
+export const imgReferFreind = require("../assets/5741212.jpg")
+export const imgFacebook = require("../assets/facebook-icon.png")
+export const imgInstagram = require("../assets/instagram-icon.png")
+export const imgTwitter = require("../assets/twitter-icon.png")
+export const imgWhatsapp = require("../assets/whatsapp-icon.png")

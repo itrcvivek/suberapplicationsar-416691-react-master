@@ -1,0 +1,69 @@
+{
+  "id": "cfcaptaintocreatetrips",
+  "version": "1.1.0",
+  "status": "preAlpha",
+  "path": "./packages/blocks/cfcaptaintocreatetrips",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfcaptaintocreatetrips"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfcaptaintocreatetrips": {
+        "file": "Cfcaptaintocreatetrips.tsx",
+        "extends": "CfcaptaintocreatetripsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfcaptaintocreatetripsController",
+            "path": "./CfcaptaintocreatetripsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfcaptaintocreatetripsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfcaptaintocreatetrips"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfcaptaintocreatetrips": {
+        "file": "Cfcaptaintocreatetrips.web.tsx",
+        "extends": "CfcaptaintocreatetripsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "CfcaptaintocreatetripsController",
+            "path": "./CfcaptaintocreatetripsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfcaptaintocreatetripsController"
+          }
+        ]
+      }
+    }
+  }
+}

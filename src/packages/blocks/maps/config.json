@@ -1,0 +1,65 @@
+{
+  "id": "Maps",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Maps",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Maps"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Maps": {
+        "file": "Maps.tsx",
+        "extends": "MapsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MapsController",
+            "path": "./MapsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MapsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Maps"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MapsBlock": {
+        "file": "MapsBlock.web.tsx",
+        "extends": "MapsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MapsController.web",
+            "path": "./MapsController.web"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MapsController"
+          }
+        ]
+      }
+    }
+  }
+}

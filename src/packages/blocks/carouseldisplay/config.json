@@ -1,0 +1,71 @@
+{
+  "id": "CarouselDisplay",
+  "version": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/CarouselDisplay",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CarouselDisplay"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-swiper\": \"^1.6.0\"",
+      "\"react-material-ui-carousel\": \"^2.3.8\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CarouselDisplay": {
+        "file": "CarouselDisplay.web.tsx",
+        "extends": "CarouselDisplayController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CarouselDisplayController",
+            "path": "./CarouselDisplayController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CarouselDisplayController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CarouselDisplay"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-swiper\": \"^1.6.0\"",
+      "\"react-material-ui-carousel\": \"^2.3.8\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CarouselDisplayBlock": {
+        "file": "CarouselDisplayBlock.tsx",
+        "extends": "CarouselDisplayController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CarouselDisplayController",
+            "path": "./CarouselDisplayController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CarouselDisplayController"
+          }
+        ]
+      }
+    }
+  }
+}

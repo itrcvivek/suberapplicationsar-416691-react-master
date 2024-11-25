@@ -1,0 +1,69 @@
+{
+  "id": "cfwalletmanagement9",
+  "version": "1.1.0",
+  "status": "preAlpha",
+  "path": "./packages/blocks/cfwalletmanagement9",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfwalletmanagement9"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfwalletmanagement9": {
+        "file": "Cfwalletmanagement9.tsx",
+        "extends": "Cfwalletmanagement9Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Cfwalletmanagement9Controller",
+            "path": "./Cfwalletmanagement9Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Cfwalletmanagement9Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Cfwalletmanagement9"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Cfwalletmanagement9": {
+        "file": "Cfwalletmanagement9.web.tsx",
+        "extends": "Cfwalletmanagement9Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Cfwalletmanagement9Controller",
+            "path": "./Cfwalletmanagement9Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Cfwalletmanagement9Controller"
+          }
+        ]
+      }
+    }
+  }
+}

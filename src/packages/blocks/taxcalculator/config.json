@@ -1,0 +1,34 @@
+{
+  "id": "TaxCalculator",
+  "version": "0.0.1",
+  "certificationType":"lite",
+  "status": "preAlpha",
+  "path": "./packages/blocks/TaxCalculator",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [
+      "\"@types/react-native-material-dropdown\": \"^0.11.5\""
+    ],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [
+      "\"@types/react-native-material-dropdown\": \"^0.11.5\""
+    ],
+    "merge-engine-screens": {}
+  }
+}

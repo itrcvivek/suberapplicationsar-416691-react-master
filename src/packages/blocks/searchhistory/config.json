@@ -1,0 +1,32 @@
+{
+  "id": "SearchHistory",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/SearchHistory",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"@material-ui/core\": \"^4.9.7\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"@material-ui/core\": \"^4.9.7\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "certificationType": "lite"
+}

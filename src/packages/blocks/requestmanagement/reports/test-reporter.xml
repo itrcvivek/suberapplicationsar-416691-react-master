@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/angiechang/bxprodnovember22/bxinternalproject-61157-react-native/src/packages/blocks/RequestManagement/__tests__/step-definitions/RequestManagement.steps.tsx">
+        <testCase name="RequestManagement User navigates to RequestManagement" duration="4758"/>
+    </file>
+    <file path="/Users/angiechang/bxprodnovember22/bxinternalproject-61157-react-native/src/packages/blocks/RequestManagement/__tests__/step-definitions/SentRequest.steps.tsx">
+        <testCase name="SentRequest User navigates to SentRequest" duration="2351"/>
+    </file>
+    <file path="/Users/angiechang/bxprodnovember22/bxinternalproject-61157-react-native/src/packages/blocks/RequestManagement/__tests__/step-definitions/SentRequest.web.steps.tsx">
+        <testCase name="SentRequest User navigates to SentRequest" duration="119"/>
+    </file>
+    <file path="/Users/angiechang/bxprodnovember22/bxinternalproject-61157-react-native/src/packages/blocks/RequestManagement/__tests__/step-definitions/RequestManagement.web.steps.tsx">
+        <testCase name="RequestManagement User navigates to RequestManagement" duration="316"/>
+    </file>
+</testExecutions>

@@ -1,0 +1,69 @@
+{
+  "id": "servicespecificsettingsadmin",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/servicespecificsettingsadmin",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Servicespecificsettingsadmin"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Servicespecificsettingsadmin": {
+        "file": "Servicespecificsettingsadmin.tsx",
+        "extends": "ServicespecificsettingsadminController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ServicespecificsettingsadminController",
+            "path": "./ServicespecificsettingsadminController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ServicespecificsettingsadminController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Servicespecificsettingsadmin"
+    ],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.5.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Servicespecificsettingsadmin": {
+        "file": "Servicespecificsettingsadmin.web.tsx",
+        "extends": "ServicespecificsettingsadminController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ServicespecificsettingsadminController",
+            "path": "./ServicespecificsettingsadminController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ServicespecificsettingsadminController"
+          }
+        ]
+      }
+    }
+  }
+}
